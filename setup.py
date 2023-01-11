@@ -13,6 +13,4 @@ setup(name='compari',
     author_email='egolkar@gmail.com',
     scripts = [ os.path.join('scripts', 'compari.py'),
                 ],
-    packages = ['compari',
-                ],
     )
