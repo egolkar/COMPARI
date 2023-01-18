@@ -25,7 +25,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 DESCRIPTION = '''
-COMPARI = Crossing fiber Modeling in the Peritumoral Area using clinically feasible dMRI
+COMPARI = Crossing fiber Modeling in the Peritumoral Area using dMRI
 '''
 
 class DwiInfo:
