@@ -103,7 +103,7 @@ class DwiInfo:
         lambda_par = lambdas[0] * 1e-6 #Lambda_parallel   
         print('The lambda_par is :',lambda_par)
         
-        edemaIndex = np.where((iso >lambda_par) & (iso<2.7e-9))
+        edemaIndex = np.where((iso >lambda_par) & (iso<2.95e-9))
         nonEdemaIndex = np.where(iso <= lambda_par  )
         
         ###########################################################
